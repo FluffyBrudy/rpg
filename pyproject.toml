@@ -1,2 +1,6 @@
-[tool.pyright]
+[tool.basedpyright]
 extraPaths = ["src"]
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "standard"
+reportMissingParameterType = false
